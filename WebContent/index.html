@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Angular Demo</title>
+<script src="lib/angular.min.js"></script>
+<script src="js/angulardemo.js"></script>
+
+</head>
+<body>
+
+   <div ng-controller="demoCtrl">
+        <table border="1">
+            <tr>
+                <td>User</td>
+                <td ng-bind="user"></td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td ng-bind="location"></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+    	<img ng-src="go365.png" width="70" height="50"/>
+    </div>
+</body>
+</html>
